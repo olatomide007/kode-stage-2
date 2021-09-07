@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.container1{
+    background-image: url(./img/banner.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 110vh;
+}
+
+.fas{
+    color: #fff;
+    margin: 10px 35em;
+    font-size: 20px;
+}
+
+.first-row{
+    margin: 25em 0 1em;
+    display: flex;
+    align-items: center;
+    padding: 0 6em;
+}
+
+.big-words{
+    color: rgb(251, 242, 244);
+    font-style: italic;
+    font-size: 60px;
+}
+
+
+
+.first-col:nth-child(2){
+     margin-left: 2.5em;
+     background-color: #fff;
+     padding: 3em 30px ;
+}
+
+/** container2 starts   **/
+
+.container2{
+    background-color: rgb(212, 163, 172);
+    color: rgb(251, 242, 244);
+    padding: 3em 5em 5em;
+}
+
+.big-word{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-style: italic;
+    width: 75%;
+    line-height: 30px;
+}
+
+.big-word::first-letter{
+    font-size: 30px;
+}
+
+.big-word::first-line{
+    line-height: 60px;
+}
+
+.white-text{
+    margin-top: 10px;
+    width: 45%;
+    text-indent: 5px;
+}
+
+/** row2 starts **/
+
+
+.row2-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.img-col{
+    width: 33.33%;
+    margin-top: -7px;
+
+}
+
+.col-img{
+    width: 100%;
+}
+
+/**  card starts  **/
+.card{
+    background-color: rgb(212, 163, 172);
+    margin-top: -5px;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.bigger-word{
+    color: rgb(251, 242, 244);
+    font-size: 60px;
+    font-style: italic;
+}
+
+.white-words{
+    color:rgb(251, 242, 244);
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card-form{
+    margin: 40px auto;
+}
+
+.name, .email{
+    padding: 10px 20px 10px 10px;
+    border-radius: 40px;
+    border: none;
+
+}
+
+.name::placeholder, .email::placeholder{
+    color: rgb(172, 172, 172)
+}
+
+.btn{
+    background-color: black;
+    padding: 10px 20px;
+    color:white;
+    border-radius: 40px;
+    border: none;
+}
+
+/** row starts **/
+
+.row{
+    display: flex;
+    align-items: center;
+    padding: 3em 6em;
+}
+
+.row-img{
+    width: 200%;
+
+}
+
+.col:nth-child(2){
+    margin: 2em 10em;
+}
+
+.black-text{
+    width:80%; 
+}
+
+.font-change{
+    font-family:cursive;
+    color: rgb(231, 164, 176);
+    margin-top: 20px;
+}
+
+/**  container3 starts **/
+
+.container3{
+    background-color: rgb(212, 163, 172);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.inline{
+    width: 20%;
+}
+
+.inline:nth-child(3), .inline:nth-child(4){
+    width: 17.78%;
+} 
+
+.inline-img{
+    margin: 20px auto;
+}
+
+/**  single-row **/
+.single-row{
+    display: flex;
+    padding: 5em 10em;
+}
+
+.single-img{
+    width: 100%;
+    height: 80%;
+}
+
+.single-col{
+    margin-left: 20px;
+    
+}
+
+.font-edit{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 2em 0;
+}
+
+.num-edit{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+}
+
+.group-text{
+    margin: 1.5em 0;
+}
+
+.change-lenght{
+    padding: 10px 40px;
+}
+
+/** last row starts **/
+.last-row{
+    display: flex;
+    margin-top: -5em;
+    height: 450px;
+}
+
+.last-img{
+    width: 280%;
+    height: 150%;
+}
+
+.last-title{
+    border-top: 10px solid pink;
+    width: 94%;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    
+}
+
+.last-title::first-letter{
+    font-size: 50px;
+}
+
+.last-col:nth-child(2){
+    margin-left: 27em;
+    margin-top: 3em;
+    text-align: center;
+    padding-top: 6em;
+}
+
+.col-email{
+    padding: 7px 90px 5px 5px;
+    margin: 0 38px 0 0;
+}
+
+.last-form{
+    margin: 2em 0;
+}
+
+.col-btn{
+    margin: 30px 30px 0 0;
+}
+
+.center{
+    text-align: center;
+    width: 90%;
+}
+
+.fab{
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.icon{
+    margin: 20px 40px 0 0;
+}
